@@ -20,6 +20,6 @@ app.use(morgan('Method::method Url::url Status::status Response::res[content-len
   // Log incoming requests in development mode
 
 app.use("/api/auth", authRouter);
-app.use("/api/product", productRouter);
+app.use("/api/products", productRouter);
 
 app.listen(PORT, () => console.log(`Server listening at port ${PORT}`));
