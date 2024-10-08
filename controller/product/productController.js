@@ -88,7 +88,8 @@ const updateProduct = async (req, res, next) => {
         category: category,
         brand: brand,
         totalQuantity: totalQuantity,
-      }
+      },
+      { new: true }
     );
 
     return res.status(200).json({
