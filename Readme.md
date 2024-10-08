@@ -48,6 +48,10 @@ The Product Management API project is designed with a RESTful architecture that 
 
 - Deployed url - https://webdottech-assessment.onrender.com
 
+## GitHub
+
+- GitHub Url - https://github.com/VinithaGanesan/webdottech-assessment
+
 ## Login
 
 Example:
